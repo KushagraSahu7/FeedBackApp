@@ -1,0 +1,61 @@
+.mainbox
+{   
+    display: flex;
+    margin: 70px auto;
+    align-items: center;
+  
+    flex-direction: column;
+    height: 80vh;
+    width: 80vw;
+    box-shadow: 1px 1px 10px grey;
+    max-height: 800px;
+    
+}
+
+body{
+  
+    box-sizing:content-box;
+}
+.donutchart
+{   
+    width:30vw;
+    height: 80%;
+    margin: 10px auto;
+    box-shadow: 1px 1px 20px grey;
+    max-height: 400px;
+    min-width: 350px;
+    
+   
+    
+    /* border-radius: 10px; */
+}
+
+
+.heading
+{
+    font-size: 30px;
+    color:azure;
+    text-shadow: 1px 1px 2px grey;
+   
+   
+    width: 100%;
+    padding: 25px 0px;
+    
+    text-align: center;
+  
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    background-color: aqua;
+}
+
+button
+{
+    margin-top: 10px;
+    border:none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: midnightblue;
+    color:white;
+    border-radius: 20px;
+}
+
